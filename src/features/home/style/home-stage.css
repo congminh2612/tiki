@@ -1,0 +1,19 @@
+.pagination__stage {
+    width: 468px;
+    margin: 60px auto;
+}
+.pagination__item {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    color:#808089;
+}
+.active {
+    border-radius: 8px;
+    color: white;
+    background-color: #0B74E5;
+}
