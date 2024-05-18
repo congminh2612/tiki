@@ -1,0 +1,112 @@
+.text__char {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color:#27272A;
+    margin-top:10px;
+    margin-left:5px
+}
+.text__char-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.text__title {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 10px;
+}
+.text__sold {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    color:#787878;
+    margin-left: 20px;
+    padding-left:10px;
+    border-left: 1px solid #787878;
+}
+.text__price{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 20px;
+
+}
+.info__wrapper{
+    margin-top: 10px;
+    border-bottom: 1px solid #EBEBF0;
+    padding-bottom: 10px;
+}
+.text__info {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    
+}
+.text__info-title{
+    width: 250px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color:#808089;
+}
+.text__info-value {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+.btn__book{
+  width: 34px;
+  height: 32px;
+  background-color: white;
+  outline: none;
+  border:1px solid #A6A6B0;
+  border-radius: 4px;
+}
+.btn__book:hover {
+    background-color: #0A68FF;
+    color: white;
+}
+.count{
+   width: 40px;
+   height: 32px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #A6A6B0;
+   border-radius: 4px;
+   margin: 0 5px;
+}
+.text__total-label {
+    margin-top: 20px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+
+}
+.text__total-value {
+    margin-top:10px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+
+}

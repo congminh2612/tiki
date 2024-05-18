@@ -23,6 +23,10 @@ a {
     text-decoration: none;
     color: inherit;
 }
+p {
+  margin:0;
+  padding:0
+}
 /**************************/
 .custom-col {
     flex: 0 0 20%; 

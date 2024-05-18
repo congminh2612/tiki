@@ -21,13 +21,13 @@ const Header = () => {
                 <div className='d-flex  align-items-center ' >
                     <div className="d-flex align-items-center ">
                         <img src="icons/icon-home.png" alt="home" width='24px' />
-                        <div className='mt-3 ms-1 text-color__header'>
+                        <div className=' ms-1 text-color__header'>
                             <p>Trang chủ</p>
                         </div>
                     </div>
                     <div className="d-flex align-items-center ms-4">
                         <img src="icons/icon-user.png" alt="home" width='24px' />
-                        <div className='mt-3 ms-1 text-color__header'>
+                        <div className=' ms-1 text-color__header'>
                             <p>Tài khoản</p>
                         </div>
                     </div>
