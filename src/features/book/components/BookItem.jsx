@@ -7,14 +7,13 @@ import { useNavigate, useParams } from 'react-router-dom';
 const BookItem = ({ book }) => {
     const navigate = useNavigate()
     const arrayRating = Array.from({ length: book.rating }, (_, index) => index)
-    console.log(arrayRating)
     return (
         <div>
             <div className="card" onClick={() => navigate(`book/${book.id}`)}>
                 <img src={book.thumbnail} className="card-img-top" alt="" />
                 <div className="card__body">
                     <div style={{ height: '75px' }}>
-                        <div className="text__title">{book.title}</div>
+                        <div className="text__title-book">{book.title}</div>
                         <div className='d-flex align-items-center'>
                             <div className='d-flex'>
                                 {arrayRating.map((rating, index) => {
@@ -25,7 +24,7 @@ const BookItem = ({ book }) => {
                                     )
                                 })}
                             </div>
-                            <div className='text__sold ms-2'>Đã bán 5k+</div>
+                            <div className='text__sold-book ms-2'>Đã bán 5k+</div>
                         </div>
                     </div>
                     <div className=''>{formatCurrencyVND(book.price)}</div>

@@ -4,13 +4,13 @@
 .card__body{
     padding:20px 5px 5px 5px
 }
-.text__title{
-    font-size: 12px !important;
+.text__title-book{
+    font-size: 12px ;
     font-weight: 400;
-    line-height: 18px !important;
-    color: #27272A;
+    line-height: 18px ;
+    color: #27272A ;
 }
-.text__sold{
+.text__sold-book{
     font-size: 10px;
     font-weight: 400;
     line-height: 15px;

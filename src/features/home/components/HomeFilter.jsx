@@ -1,8 +1,33 @@
-import React from 'react'
-import { categoryItems } from '../constants/category'
-import '../style/home-filter.css'
+/* eslint-disable react/prop-types */
+import React, { useState } from 'react'
 
-const HomeFilter = () => {
+import '../style/home-filter.css'
+import { categoryItems, supplierItems } from '../constants';
+
+const HomeFilter = ({ filters, setFilters }) => {
+
+    const handleCategoryChange = (category) => {
+        setFilters(prev => ({
+            ...prev,
+            category,
+        }));
+
+    }
+    const handleSupplierChange = (supplier) => {
+        setFilters(prev => ({
+            ...prev,
+            suppliers: {
+                ...prev.suppliers,
+                [supplier]: !prev.suppliers[supplier],
+            }
+        }));
+    };
+    const handleRatingChange = (rating) => {
+        setFilters(prev => ({
+            ...prev,
+            rating,
+        }));
+    };
     return (
         <div>
             <div>
@@ -10,8 +35,11 @@ const HomeFilter = () => {
                 <div>
                     {categoryItems.map(item => {
                         return (
-                            <div key={item.id}>
-                                <p className='mt-3 text__item'>{item.label}</p>
+                            <div className='' key={item.id} onClick={() => {
+                                handleCategoryChange(item.label)
+                            }}
+                            >
+                                <p className='mt-3 text__item text__item-active'>{item.label}</p>
                             </div>
                         )
                     })}
@@ -19,22 +47,19 @@ const HomeFilter = () => {
             </div>
             <div className="mt-4">
                 <p className='text__category'>Nhà cung cấp</p>
-                <div>
-                    <input type="checkbox" id='1' />
-                    <label htmlFor='1' className='ms-3 text__item'>Nhà sách Fahasa </label>
-                </div>
-                <div>
-                    <input type="checkbox" id='2' />
-                    <label htmlFor='2' className='ms-3 text__item'>Time Books </label>
-                </div>
-                <div>
-                    <input type="checkbox" id='3' />
-                    <label htmlFor='3' className='ms-3 text__item'>Bamboo Books </label>
-                </div>
-                <div>
-                    <input type="checkbox" id='4' />
-                    <label htmlFor='4' className='ms-3 text__item'>V Books </label>
-                </div>
+                {supplierItems.map((item, index) => (
+                    <div key={item.id}>
+                        <input
+                            type="checkbox"
+                            id={item.id}
+                            checked={filters.suppliers[item.label] || false}
+                            onChange={() => handleSupplierChange(item.label)}
+                        />
+                        <label htmlFor={item.id} className='ms-3 text__item'>
+                            {item.label}
+                        </label>
+                    </div>
+                ))}
             </div>
             <div>
                 <p className='text__category'>Đánh giá</p>

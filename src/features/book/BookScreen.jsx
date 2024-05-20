@@ -4,8 +4,12 @@ import bookData from '../../assets/data/book.json'
 import './style/book-screen.css'
 import rating from '../../assets/icon-rating-5.png'
 import formatCurrencyVND from '../../utils/formatCurrency'
+import { useDispatch, useSelector } from 'react-redux'
+import { addCart } from '../../redux/slice/cartSlice'
 
 const BookScreen = () => {
+    const dispatch = useDispatch()
+    const carts = useSelector(state => state.cart.carts)
     const { id } = useParams()
     const [count, setCount] = useState(1)
     const [book, setBook] = useState({})
@@ -13,11 +17,30 @@ const BookScreen = () => {
     useEffect(() => {
         setBook(bookData.filter((book) => book.id == id))
     }, [id])
+
+
     const handleInc = () => {
         if (count > 0) setCount(count - 1)
     }
     const handleDec = () => {
         setCount(count + 1)
+    }
+    const handleAddToCart = () => {
+        const index = carts.findIndex(item => item.id == id)
+        const productCarts = [...carts]
+
+        if (index !== -1) {
+            productCarts[index] = {
+                ...productCarts[index],
+                quantity: productCarts[index].quantity + count,
+            }
+        }
+        else {
+            const product = { ...book[0], quantity: count }
+            productCarts.push(product)
+        }
+
+        dispatch(addCart(productCarts))
     }
     return (
         <div className='container' style={{ paddingBottom: '100px' }}>
@@ -124,8 +147,8 @@ const BookScreen = () => {
                         <p className='text__total-value'>{formatCurrencyVND(book[0]?.price * count)}</p>
                     </div>
                     <div className='mt-4'>
-                        <button style={{ width: '100%' }} type="button" className="btn btn-danger">Mua ngay</button>
-                        <button style={{ width: '100%' }} type="button" className="mt-2 btn btn-outline-primary">Thêm vào giỏ hàng</button>
+                        <button onClick={() => handleAddToCart(book[0]?.id)} style={{ width: '100%' }} type="button" className="btn btn-danger">Mua ngay</button>
+                        <button onClick={() => handleAddToCart(book[0]?.id)} style={{ width: '100%' }} type="button" className="mt-2 btn btn-outline-primary">Thêm vào giỏ hàng</button>
                         <button style={{ width: '100%' }} type="button" className="mt-2 btn btn-outline-primary">Mua trước trả sau</button>
                     </div>
                 </div>

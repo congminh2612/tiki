@@ -13,7 +13,9 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
+        "translator":"Nguyen Van A",
+        "category" : "Khoa học và đời sống",
+        "supplier" :"Nhà sách Fahasa"
         
     },
     {
@@ -30,13 +32,15 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
-
+        "translator":"Nguyen Van A",
+        "category" : "Kinh tế",
+        "supplier" :"Nhà sách Fahasa"
+       
         
     },
     {
         "id": 3,
-        "title": "Sách -IELTS Writing Journey From Basics To Brand 6.0",
+        "title": "Sách-IELTS Writting Journey From Basics To Band 6.0",
         "price": 257000,
         "rating": 5,
         "thumbnail" : "https://s3-alpha-sig.figma.com/img/8b36/e14a/c5e2dc2ded250239d13f2aa4d7d6fa01?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FPdFW~EZLbtLAxuKWE9W5LP3jUjFzIOcsK76oitt5E7RL~xtPmQmcMMj6s0Ely6NHByMm4hwSOX80l-M7BCMBVNxy7B6YHWhM1QhGGdlWdssZIXvfSEgDXuGDh9wIWtpq5XNPBa3GTeWuSh8VOI4t85YQPpYBRzIK2~~663ccWQnf6-OZanf-h7P-quLnKUSuqiNSobT7IwBnpPsEfMUH5SPTB-YduEA4TR3e0lKJVxaI9um2OPxDBJ6rT-D9x-ezc0uJohiG6wdG9FuOcztDwYJFyTGAtLL8JPblQcCSwtKijL-qo~ilivEVdFA0kqY6M2ixa1YujOu97eo6HYfJw__",
@@ -48,13 +52,13 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
-        
-        
+        "translator":"Nguyen Van A",
+        "category" : "English Books",
+        "supplier" :"Nhà sách Fahasa"
     },
     {
         "id": 4,
-        "title": "Bản đồ (bản thông thường)",
+        "title": "Sổ planner 52 tuần 2024 SDstationery “Treasure the Journey” gáy lò xo, họa tiết ",
         "price": 257000,
         "rating": 5,
         "thumbnail" : "https://s3-alpha-sig.figma.com/img/382c/2b03/69efe04f77fbe688067e56afee83c0f7?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fc15EdmNu8R-odWmG9cwDdaUxjK-jxcpOxPog~LjrnpxcdV7D8YsGML9k9zb2Hkmol2yi1QbC3sgongWjcuHCy-dWdUGq4Ug8hMTI2E8PKSdhBoHyG-fQMj4rmRWSFMtTmgQM6jc27Itp2zY~NlK~Q~TMFDxfuEFF22T0LVPWr6YiHrnj6m8~O0xhbW~rHGVygTZTgwVx1b5Z8Bd81bp-i4XPUVmmMvZe3QGEW7HiaQeOFRhB6C4l6bZNWBSXzo7H5tNH8AO2MEnLo17qkTrKe8UE-aKA7TgUftFcuYLpJBeQ-1cSSdu2ox5Rravp62KIwAlPY-CeYCsE34Z7gFovA__",
@@ -66,13 +70,13 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
-        
-        
+        "translator":"Nguyen Van A",
+        "category" : "Khoa học và đời sống",
+        "supplier" :"Nhà sách Fahasa"
     },
     {
         "id": 5,
-        "title": "Bản đồ (bản thông thường)",
+        "title": "Lịch bàn 2024 Thông Thái Tinh Khôn SDstationery,21x16x16",
         "price": 257000,
         "rating": 4,
         "thumbnail" : "https://s3-alpha-sig.figma.com/img/4afc/84b7/1cb7129ad7e63825ef5ecc5120a824b8?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MFZOOPjEZqXxnufsUUpMJ-QPi4v3kKbOz-ZVK-NxxGrQoIS4qKZyjqcPaGi6dvnNZQvhg9dCvZUSnyIc1SMePF4PpigelzcR9lJpuQH6z9IQE70vY~0yZVAvFXnKHWe~3exrA2cMFSzQibujQf6fN7DoDJF48Dn-LbcOVQfY9MyqnO3wRl8uBwZpvqp76BmAtr9JU~EFdDQ42r4IzahjCZCIb7jQIattNa4PrK0NPaLfgDLTCPPF45P3WLkNXAXgkrKFsEqbZ6HoYtuElbx0TOnIcT5vDHyVZkzrssMsAQka11pnXYuWS~GaQM69qEZyngfzjYX1bkx4Ap~ErohnVQ__",
@@ -84,13 +88,15 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
+        "translator":"Nguyen Van A",
+        "category" : "Khoa học và đời sống",
+        "supplier" :"Bamboo Books"
         
         
     },
     {
         "id": 6,
-        "title": "Bản đồ (bản thông thường)",
+        "title": "Cây cam ngọt của tôi",
         "price": 257000,
         "rating": 5,
         "thumbnail" :"https://s3-alpha-sig.figma.com/img/667d/84fe/efffcb2ffdf4282ebb3b0522b834486c?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bagt9O6Iy3IQawE03fHHKhlIiXvrEPYMvnJDadm4yhDqYZAmggxuSdom7rBjOcReEVcyW1SQy~p5BFP-k4eQ33c-S~nnG~gnYC~2m5YXOriJzubk-mmDY1XpDxKifoC3PYV4F-NJF29R74ptmAUQFCRdwTN3heqpzZaShpmEDOncwfcy5kxff30lrrzI5NSPDvB0ZcChxHfxCrSKjpQiDUWgcd-sLf2y-kHMvpkx2mNVYJq85cFtJbe4DW8kJSIf2vJQYxWUMYgd5EwKLhzUxOhFiEufk8hF3y~~G19mc9VWIiBBv~xjsrcsdBXJe5gvbbzNhqErE7tNd3Yo1MxeIQ__",
@@ -102,13 +108,14 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
-        
+        "translator":"Nguyen Van A",
+        "category" : "Trẻ em",
+        "supplier" :"Bamboo Books"
         
     },
     {
         "id": 7,
-        "title": "Bản đồ (bản thông thường)",
+        "title": "Vị thần của những quyết đinh",
         "price": 257000,
         "rating": 4,
         "thumbnail" : "https://s3-alpha-sig.figma.com/img/4ca3/6db5/fbb906c34aa711a6bbb387804dad814b?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gB-mSqz4IDQ9DkZqeSKp6KOTRtkkwiSYOKRBu3uZHtRpJn0tjpvOu04KrRgXef8EMyMHgI3INF-h7EqTUCG-QmwyMmRp5mbLsjxqTLXaxCejIi5UsLVGPW9AZzy9YK63KDQY5ZrQCBvCyOUAWf3mjT520VV16aFzsLSiLvyKZcWhrupXnoBfAoaFGHC0mlZwczAEvZg~9klQpHt5bz7UGSpIXJ2F2SqmTAZ8-xsutNMo~XfBKxUKCbgNAnMyO3WWBT-o~1xlDgEBxXWLMlIrDvO6OdZSfXBO7nSsA-gaK8RLpgNCEfxeYJ9d1q06O8Ms1aRqo53O~Hnbj7J0jXACaQ__",
@@ -120,13 +127,14 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
-        
+        "translator":"Nguyen Van A",
+        "category" : "Kiến thức",
+        "supplier" :"Bamboo Books"
         
     },
     {
         "id": 8,
-        "title": "Bản đồ (bản thông thường)",
+        "title": "Không Phải Sói Nhưng Cũng Đừng Là Cừu -Tặng kèm bookmark 2 mặt",
         "price": 257000,
         "rating": 5,
         "thumbnail" : "https://s3-alpha-sig.figma.com/img/fc29/2a00/11d9c38305bb01c0e87d7edb160eee0a?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C2mZRbsNnjCINIfa263uYdn1X21uyZMMq~yxysnJv23eaYfedzWBBts911Merlq3Jba3tHqECR6~4YOExbcCfbqPhOhkAUom9kKe0BS0OvK8wy1rtEQtIkxRK0a3zunjSlLplHGVbVDthxnDNvj7pVz9Q~4iUxQMkHoE4nMbl0g2eISbMVU~6p1EXm9JgP703o03JfyFvpU2YR5n4pu7xlXcik2O7BwbVxUreN614EqIcjF0z4EMLlBP2xq~CDNn9ukLHfWs1UA0knqvZwEJheHqUY918uWZ9Y9i6DuSlc2L-kzoYAuTTIRFfPOCuv-U3y4YJpaNc5SWRth8g2zwlw__",
@@ -138,11 +146,13 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
+        "translator":"Nguyen Van A",
+        "category" : "Kiến thức",
+        "supplier" :"Bamboo Books"
     },
     {
         "id": 9,
-        "title": "Bản đồ (bản thông thường)",
+        "title": "Nóng giận là bản năng, tĩnh lặng là bản lĩnh",
         "price": 257000,
         "rating": 5,
         "thumbnail" : "https://s3-alpha-sig.figma.com/img/95db/a66f/2fbd626785b8210b48cfa5b6f855aaec?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RBIAyATrc~dU2nA~ZHk8WRMxEGrB8OUR8xkvu2BLV0C0w1cNrNLgW1MecheA4Iumsxg-u0cNjJa5iRhRDQY-o3JHKYQ5DQCbMINtmjK6ykYv7EHVgDVjyL9fpnBQMpyRP~fUqlzWDXkw3Vyp6XnirshzehH5s6fYkkw8VXLci4AbqTV5~XhJK-qg8ix3idnF0-4otRePdIdlsVfoRRtfjfz64AKKrB~Y3ASEoVHMbTUHaLMPZtdSxCW2QyExU-QxYCGkDSvFXoAaU2neOuyN-HFqqDRUD58sUDKndkJuIkOcScs7mwo7MM8hcaIkC2twnt8aVnMZSVbnFZeCxvIW4w__",
@@ -154,13 +164,15 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
+        "translator":"Nguyen Van A",
+        "category" : "Kiến thức",
+        "supplier" :"Time Books"
         
         
     },
     {
         "id": 10,
-        "title": "Bản đồ (bản thông thường)",
+        "title": "Thiên tài bên trái, kẻ điên bên phải",
         "price": 257000,
         "rating": 5,
         "thumbnail" : "https://s3-alpha-sig.figma.com/img/89fb/040b/0805f5b69776a204fc9a122927966618?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hi0N4rDtFucJabzECWDOowZKT69eAGsOYBuT5JJwCFPQOOGI3KB7ENMhBTh0tf3z9CYuKBaSX8IDZQZCOjaDViBJQ63DbQKctS5UBIPjGFKK9x6HyP9soU4YZqlryIahN6KJqZz4z8vGprxKnJEc2iC5xoMRks2t4B429J6iYPS7bFdZL113ma~7IvBChgBzGLHS22XMNx4ILtGrLfsSme1EqQHS4af-EvhVt8-rdt9IMfUz4vJ1Mg9sJ9-yqX-huKMMo5kUMj7yx4PeB0-~8UIdB32opOF6Ga48pHG23n3rKjQ3T8NdRav57n9PAz6~bpu78PtYG21wNIfWGFhgOQ__",
@@ -172,13 +184,15 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
+        "translator":"Nguyen Van A",
+        "category" : "Kiến thức",
+        "supplier" :"Time Books"
         
         
     },
     {
         "id": 11,
-        "title": "Bản đồ (bản thông thường)",
+        "title": "Lịch bàn 2024 SDstationery From Yourself with Love, cảm hứng phát triển bản thân, tiến…",
         "price": 257000,
         "rating": 4,
         "thumbnail" : "https://s3-alpha-sig.figma.com/img/b54b/14bb/421886fb43178955d1133467bcbc7c05?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dDyaS4vs1flA48oYNYrl3KOujgOwkApbDTU6TObS5QGoav20Wj4i9eYLq9bzcfT90xYMPeHviRuQ3d9vv3XHwJjSE0nfPo-oau~tYO8-3REuwKSwwyTerO8LNtzps631rbDA2T~Zrm0RcBD9Gi2veel2WtUZFYPk2P6a0wmElN5EyVjsSVQ1T3-2bUBpHH9M27RydL1JU3LFD31FDiD8eQ12XUqTBFhf~pZV7-MOqeJIyArrrfT7KZNnBtQEF12VNZa1WIPV7ESW0OKM44bHNjq8eJ-dtzPTtFaqDZsos1z7Q5qyQ4X6Vu3wq7Q-c5BaZT6vnxyhPxBOEzaM5~TwCw__",
@@ -190,13 +204,14 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
-        
+        "translator":"Nguyen Van A",
+        "category" : "Khoa học và đời sống",
+        "supplier" :"Time Books"
         
     },
     {
         "id": 12,
-        "title": "Bản đồ (bản thông thường)",
+        "title": "Các phương pháp giao dịch ngắn hạn hiệu quả trên thị trường Forex - Day Trading an…",
         "price": 257000,
         "rating": 4,
         "thumbnail" : "https://s3-alpha-sig.figma.com/img/12e1/8ae8/bc32cf9d7007cf27f446e239eb14fdf2?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IXDXOclHuQ96vZ9wfsyFiD2KLcS9WwnvOTfUnODs90hEZ6EO3YXl9YXQyUVg3bX2lOXPDv4k0rKpdYPa1mSoBT-66WXGCSoPZD7vJCHkUXzvcKuZs9PIIU5oFYit-yGBR90tjPuy9WlPPI74NTrvf2Xa0-mGqoYGgjpSF6DNn8gP8FG7q1xLEkVgUGj8JnBIaHHRGBV0qIlzWu8Z11I6CLxVaWgLNRSa9lXW6hNlesfiBQe5Ek2zV~cOoDUudupK1N1NE01OixdkchySaeFtNoPZE1oQ5kebyNtMRWsOervRUYBl6aPPx4SBXlFy9Cf8zDFxX~sZrmrwz5o5rm~T3Q__",
@@ -208,13 +223,15 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
+        "translator":"Nguyen Van A",
+        "category" : "Kinh tế",
+        "supplier" :"V Books"
         
         
     },
     {
         "id": 13,
-        "title": "Bản đồ (bản thông thường)",
+        "title": "BỘ BOOKMARK 1% TINH HOA",
         "price": 257000,
         "rating": 5,
         "thumbnail" : "https://s3-alpha-sig.figma.com/img/9a6b/1a95/ed5b2875f2c9e7a968d6dd02a40017fd?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=otayrpf4BuSzlErotFLjjPyks4J3e4P94zU-al2ysk-eeI8GMUuV5h5lHISDWm15Vgz6EAoYwMgJE~dtE-8eL4djxRaR17R3uFU~-6t5feU9MXGqaF-EVYjEexXWAcjLCQcBIkVNhEZvnojzaiy0qh6KHokGu51a1yeVwceq0iKdkWzqxCrUEmF1vAbNiWvOYEqe4cmCCJHEAx3hnSf2UsxIWjSrLZlUHnRMwi~gxWGj5ECyel2IcxW507l1r5sB9qybFtMFQAnzSpiBHalSUss5kJKSl7dXpD~v-d2rrqeoII8CMz-tVmTTlcZPh5kNtygN~fTRXFo1TDbxy4HJaA__",
@@ -226,13 +243,15 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
+        "translator":"Nguyen Van A",
+        "category" : "Khoa học và đời sống",
+        "supplier" :"V Books"
         
 
     },
     {
         "id": 14,
-        "title": "Bản đồ (bản thông thường)",
+        "title": "Nhà giả kim(Tái bản 2020)",
         "price": 257000,
         "rating": 5,
         "thumbnail" : "https://s3-alpha-sig.figma.com/img/eefc/a9a6/d76e3a364a12e0482bba0a4f083acce9?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=emAU8rnPUpnfr2Fr8AvNWaIYqc9MxGdxEw5GWWsUbUaqnlfG~MIZrnOl~zWGbejMzd7fbI2wpK4pHWjkCgXv9MwBGHNwBGcDMLPmkwyEuiPpsLu8Me8F0AQ5mBKL-bcKvtDsY-U1utXO4PkmGOG4CT2tnm07~fwecmR9F81SRMB~u0s6zx2c-gdsRIvcHAIR8wnUZTK1ALfwGyBcwwOwjJqJRWkrCFYabM6hEx5itCPTYfbZM9UCF9IiofvwfNyQcsTcDEpdALcUN3SCyGyde9JrlfVQg3fOEAcqA5YwFFNvod-8sAVRH49JPor~hMTce32qKgVEoWrYzgkDvLK7mw__",
@@ -244,7 +263,9 @@
         "size":"27 * 37 cm",
         "author" : "Minh Mong Manh",
         "pages":108,
-        "translator":"Nguyen Van A"
+        "translator":"Nguyen Van A",
+        "category" : "Kiến thức",
+        "supplier" :"V Books"
         
     }
 ]

@@ -1,10 +1,15 @@
-.header__wrapper{
+.header__container{
     background:#fff;
     height: 96px;
     margin: 10px 260px;
 }
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Mặc định là căn giữa */
+}
 @media (max-width: 1500px) {
-    .header__wrapper {
+    .header__container {
         margin: 10px 60px;
     }
     .input__header {
@@ -12,7 +17,7 @@
     }
 }
 @media (max-width: 1200px) {
-    .header__wrapper {
+    .header__container {
         margin: 10px 50px;
     }
     .input__header {
@@ -20,14 +25,20 @@
     }
 }
 @media (max-width: 992px) {
-    .header__wrapper {
+    .header__container {
         margin: 10px 50px;
     }
     .input__header {
         max-width: 300px !important ;
     }
-    .d-flex.align-items-center {
-        display: none;
+    .header-right {
+        display: none !important;
+        
+    }
+}
+@media (max-width: 768px) {
+    .header__wrapper {
+        justify-content: center !important;
     }
 }
 .search-wrapper {
@@ -79,4 +90,36 @@
     height: 15px;
     background-color: #FF424F;
     color: #fff;
+}
+/************************/
+
+.search-results {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 15px ;
+    width: 100%; 
+    position: absolute;
+    z-index: 1000;
+}
+
+.search-results ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-results li {
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+.search-results li:hover{
+    background-color: #ccc;
+
+}
+
+.search-results img {
+    margin-right: 10px;
 }
