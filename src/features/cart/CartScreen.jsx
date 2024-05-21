@@ -9,25 +9,20 @@ const CartScreen = () => {
     const form = useRef()
     const dispatch = useDispatch()
     const carts = useSelector(state => state.cart.carts)
+    let cartEmail = "";
+    carts.map((item) => {
+        cartEmail += `${item.title} x ${item.quantity}  \n`;
+    });
+      
     const sendEmail = (e) => {
-        e.preventDefault();
-
-
-        const orderData = {
-            name: form.current.name.value,
-            phone: form.current.phone.value,
-            address: form.current.address.value,
-            carts: carts.map(item => ({ title: item.title, price: item.price, quantity: item.quantity }))
-        };
-
-
-        emailjs.sendForm('service_gg15d0c', 'template_jzmh73p', form.current, 'mtz2anV1-z2yy5-XU', { orderData })
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-    };
+        e.preventDefault()
+        emailjs.sendForm('service_gg15d0c', 'template_jzmh73p',form.current,'mtz2anV1-z2yy5-XU')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
 
     const [formData, setFormData] = useState({
         name: '',
@@ -45,7 +40,7 @@ const CartScreen = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formData);
+        console.log(form.current);
     };
     const handleIncreaseQuantity = (id) => {
         dispatch(increaseQuantity(id));
@@ -135,6 +130,14 @@ const CartScreen = () => {
                                 name='address'
                                 value={formData.address}
                                 onChange={handleChange}
+                            />
+                        </div>
+                        <div>
+                            <input
+                            type='hidden'
+                            id='cart'
+                            name='carts'
+                            value={cartEmail}
                             />
                         </div>
                         <button type='submit' className='btn btn-primary'>Đặt hàng</button>
